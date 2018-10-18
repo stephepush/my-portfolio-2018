@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="button.css"> -->
+    <!-- import the webpage's javascript file -->
+</head>
+<body>
+    <!--Wrapper Starts-->
+    <div class="wrapper">
+        <div class="bg-image module">
+           
+        </div>
+        <!-- <nav class="main-nav">
+            <ul class="menu">
+                <li><a href="#"><svg class="nav-icons">
+                    <use xlink:href="#home" href="#home"></use>
+                  </svg><span class="nav-text">Home</span></a></li>
+                <li><a href="#"><svg class="nav-icons"><use xlink:href="#about-glyph" href="#about-glyph"></use></svg><span class="nav-text">About Me</span></a></li>
+                <li><a href="#"><svg class="nav-icons"><use xlink:href="#projects" href="#projects"></use></svg><span class="nav-text">My Work</span></a></li>
+                <li><a href="#"><svg class="nav-icons"><use xlink:href="#connect" href="#connect"></use></svg><span class="nav-text">Connect</span></a></li>
+            </ul>
+        </nav> -->
+        <!-- <nav class="main-nav">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">My Work</a></li>
+                <li><a href="#">Contact Me</a></li>
+            </ul> 
+        </nav> -->
+        <!-- Top Container (Might shift this upwards to include the nav)-->
+        <nav class="main-nav">
+            <ul class="menu">
+                <li><a href="#home"><svg class="nav-icons">
+                    <use xlink:href="#home" href="#home"></use>
+                  </svg><span class="nav-text">Home</span></a></li>
+                <li><a href="#about"><svg class="nav-icons"><use xlink:href="#about-glyph" href="#about-glyph"></use></svg><span class="nav-text">About Me</span></a></li>
+                <li><a href="#projects"><svg class="nav-icons"><use xlink:href="#projects" href="#projects"></use></svg><span class="nav-text">My Work</span></a></li>
+                <li><a href="#contacts"><svg class="nav-icons"><use xlink:href="#connect" href="#connect"></use></svg><span class="nav-text">Connect</span></a></li>
+            </ul>
+        </nav>
+        <section class="top-container" id="home">
+            <header class="showcase">
+                <h1 class="intro-header">Stephen Peters</h1>
+                <h2 class="intro-header">Web Developer based in NYC</h2>
+            </header>  
+        </section>
+        <section class="about-me" id="about">
+            <h2>About Me</h2>
+            <div>
+                <img src="https://res.cloudinary.com/dmkct6wfu/image/upload/r_0/a_360/v1539821654/portfolioImageAssets/project_imgs/me.jpg" alt="Me" class="my-pic" height="400px">
+                <article class="bio">
+                    <p class="bio-blurb">Hi I'm Stephen. I am a self-taught (still learning) web developer. I graduated from college with a social science degree, but I've always been a techie and decided to learn how to code. Right now I'm focusing on WordPress and PHP development, although I love to look up other technologies and get a gist in my free time. In my free-er time I like to catch up on my collection of steam games, trying new recipes and maintaining my cast iron collection.     
+                    </p>
+                </article>    
+                <div class="skills-list-div">
+                    <h3 class="skills-header">Skills</h3>
+                    <ul class="skills-list">
+                        <li class="skills">HTML 5</li>
+                        <li class="skills">CSS</li>
+                        <li class="skills">CSS Grid</li>
+                        <li class="skills">CSS FlexBox</li>
+                        <li class="skills">JavaScript</li>
+                        <li class="skills">jQuery</li>
+                        <li class="skills">Python</li>
+                        <li class="skills">PHP</li>
+                        <li class="skills">MySQL</li>
+                        <li class="skills">Node/Express</li>
+                        <li class="skills">React</li>
+                        <li class="skills">SASS</li>
+                        <li class="skills">Django</li>
+                        <li class="skills">BootStrap</li>
+                        <li class="skills">WordPress</li>
+                        <li class="skills">Terminal/BASH</li>
+                        <li class="skills">SSH</li>
+                        <li class="skills">the LAMP stack</li>
+                        <li class="skills">Vagrant</li>
+                        <li class="skills">GitHub</li>
+                        <li class="skills">Object Oriented Programming</li>
+                        <li class="skills">Responsive Web Design</li>  
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="projects grid" id="projects">
+            <h2>My Web Projects</h2>
+            <ul class="project-cards">
+                <li>
+                    <button class="accordion ">
+                        <h4 class="card-title">Landing Page</h4>
+                    </button>
+                    
+                    <div class="card-content">
+                        <p>A simple landing page utilizing HTML/CSS/CSS Flexbox CSS Grid and SVG images</p><br/>
+                        <a href="https://fcc-landing-page-sp.glitch.me/"><img src="https://res.cloudinary.com/dmkct6wfu/image/upload/v1539748729/portfolioImageAssets/project_imgs/landingpage.png"
+                            alt=""></a>
+                    </div>
+                </li>
+                <li>
+                    <button class="accordion ">
+                        <h4 class="card-title">Survey Page</h4>
+                    </button>
+
+                    <div class="card-content">
+                        <p>A survey page utilizing html form content and SVG graphics interspersed. A functional (PHP?)
+                            backend should be coming soon.</p><br/>
+                        <a href="https://build-a-survey-form-fcc-project2.glitch.me/"><img src="https://res.cloudinary.com/dmkct6wfu/image/upload/v1539748729/portfolioImageAssets/project_imgs/survey_page.png"
+                            alt=""></a>
+                    </div>
+                </li>
+                <li>
+                    <button class="accordion ">
+                        <h4 class="card-title">Tribute Page</h4>
+                    </button>
+
+                    <div class="card-content">
+                        <p>A resposive tribute page dedicated to George Washington Carver that utilizes the BootStrap
+                            front-end framework</p>
+                        <a href="https://stephepush.github.io/gwcTributePg/"><img src="https://res.cloudinary.com/dmkct6wfu/image/upload/v1539748729/portfolioImageAssets/project_imgs/tribute_page.jpg"
+                            alt=""></a>
+                    </div>
+                </li>
+                <li>
+                    <button class="accordion ">
+                        <h4 class="card-title">Random Quote Generator</h4>
+                    </button>
+                    
+                    <div class="card-content">
+                        <p>A random quote generator that utilizes jQuery, and jQueryUi to utilize a third party api.</p><br/>
+                        <a href="https://stephepush.github.io/randomQuoteGenerator/"><img src="https://res.cloudinary.com/dmkct6wfu/image/upload/v1539748729/portfolioImageAssets/project_imgs/random_quote_generator.png" alt=""></a>
+                    </div>
+                </li>
+                <li>
+                    <button class="accordion ">
+                        <h4 class="card-title">Weather Viewer App</h4>
+                    </button>
+                    
+                    <div class="card-content">
+                        <p>A weather app that utilizes a weather API, HTML geolocation features, SVG graphics, JavaScript and jQuery.</p>
+                        <a href="https://stephepush.github.io/weatherApp/"><img src="https://res.cloudinary.com/dmkct6wfu/image/upload/v1539748729/portfolioImageAssets/project_imgs/weather_app.jpg" alt=""></a>
+                    </div>
+                </li>
+                <li>
+                    <button class="accordion ">
+                        <h4 class="card-title">Wikipedia Viewer App</h4>
+                    </button>
+                    
+                    <div class="card-content">
+                        <p>A wikipedia viewer that utilizes the wikipedia api.</p><br/><br/>
+                        <a href="https://stephepush.github.io/WikipediaViewer/"><img src="https://res.cloudinary.com/dmkct6wfu/image/upload/v1539748729/portfolioImageAssets/project_imgs/wikipedia_viewer.png" alt=""></a>
+                    </div>
+                </li>
+               
+            </ul>
+        </section>
+        <div class="divider"></div>
+        <section class="contact" id="contacts">
+            <p>Feel free to 
+                check out what I'm working on or contact me on these social networks/platforms!</p>
+            <div class="soc-net-box">
+                <ul class="soc-nets">
+                    <li><a class="btn btn-a" href="https://twitter.com/BxBytesSteph">
+                        <i class="fab fa-twitter"></i>
+                        <span class="link-txt">Twitter</span></a></li>
+                    <li><a class="btn btn-b" href="https://github.com/stephepush">
+                        <i class="fab fa-github"></i> 
+                        <span class="link-txt">GitHub</span></a></li>
+                    <li><a class="btn btn-c" href="https://www.linkedin.com/in/stephpdev/">
+                        <i class="fab fa-linkedin"></i>
+                        <span class="link-txt">Linkedin</span></a></li>
+                    <li><a class="btn btn-d" href="https://www.freecodecamp.org/stephepush">
+                        <i class="fab fa-free-code-camp"></i>
+                        <span class="link-txt">FreeCodeCamp</span></a></li>
+                </ul>
+            </div>
+        </section>
+        <footer>
+            <p>Portfolio built using HTML, CSS Grid, CSS FlexBox, a bit of JavaScript and SVG icons provided by <a href="https://fontawesome.com/">Font Awesome</a>!  Started by Stephen in 2018</p>
+        </footer>
+    </div>
+
+        <!-- about icon -->
+    <div class="vectors">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1024 1024">
+            <symbol id="about-glyph" viewbox="0 0 1024 1024">
+              <path d="M464.7 376.5c0 6.5-.5 13-1.3 19.5.5-3.5 1-7.1 1.4-10.6-1.8 13-5.2 25.6-10.2 37.7 1.3-3.2 2.7-6.4 4-9.6-5 11.8-11.4 22.8-19.2 33l6.3-8.1c-7.8 10-16.8 19-26.8 26.8l8.1-6.3c-10.2 7.8-21.2 14.2-33 19.2 3.2-1.3 6.4-2.7 9.6-4-12.1 5-24.7 8.4-37.7 10.2 3.5-.5 7.1-1 10.6-1.4-13 1.6-26 1.6-38.9 0 3.5.5 7.1 1 10.6 1.4-13-1.8-25.6-5.2-37.7-10.2 3.2 1.3 6.4 2.7 9.6 4-11.8-5-22.8-11.4-33-19.2l8.1 6.3c-10-7.8-19-16.8-26.8-26.8l6.3 8.1c-7.8-10.2-14.2-21.2-19.2-33 1.3 3.2 2.7 6.4 4 9.6-5-12.1-8.4-24.7-10.2-37.7.5 3.5 1 7.1 1.4 10.6-1.6-13-1.6-26 0-38.9-.5 3.5-1 7.1-1.4 10.6 1.8-13 5.2-25.6 10.2-37.7-1.3 3.2-2.7 6.4-4 9.6 5-11.8 11.4-22.8 19.2-33l-6.3 8.1c7.8-10 16.8-19 26.8-26.8l-8.1 6.3c10.2-7.8 21.2-14.2 33-19.2-3.2 1.3-6.4 2.7-9.6 4 12.1-5 24.7-8.4 37.7-10.2-3.5.5-7.1 1-10.6 1.4 13-1.6 26-1.6 38.9 0-3.5-.5-7.1-1-10.6-1.4 13 1.8 25.6 5.2 37.7 10.2-3.2-1.3-6.4-2.7-9.6-4 11.8 5 22.8 11.4 33 19.2l-8.1-6.3c10 7.8 19 16.8 26.8 26.8l-6.3-8.1c7.8 10.2 14.2 21.2 19.2 33-1.3-3.2-2.7-6.4-4-9.6 5 12.1 8.4 24.7 10.2 37.7-.5-3.5-1-7.1-1.4-10.6.8 6.4 1.3 12.9 1.3 19.4 0 10.3 4.4 21 11.7 28.3 6.9 6.9 18.3 12.2 28.3 11.7 21.6-1 40.1-17.6 40-40-.2-37.3-11.2-75.7-33-106.1-12.8-17.8-26.9-32.2-44.3-45.4-14.8-11.2-31.3-19.3-48.7-25.7-35.5-13.1-76.8-13.7-113-3.3-34.8 10-67.9 30.5-91 58.5-14 17.1-24.3 34.4-32.6 54.8-7.2 17.7-10.7 36.3-12.2 55.3-3 37.2 6.9 76.3 26 108.1 18.7 31 47 57.9 80.1 72.9 9.8 4.4 19.9 8.7 30.3 11.6 10.7 3 21.6 4.5 32.7 5.8 19.2 2.3 38.7.6 57.7-3.2 35.8-7.1 70.2-26.7 95.4-53 25.3-26.4 44.1-61.1 49.6-97.5 1.6-10.9 3-21.8 3.1-32.8.1-20.9-18.5-41-40-40-21.9 1-40 17.6-40.1 40z"/>
+              <path d="M665 795.2c-.2-62.1-19-125.1-55.3-175.8-9.7-13.6-20.2-26.7-31.8-38.7-11.5-11.9-24.2-22.3-37.3-32.4-24.3-18.6-51.5-32.5-80.2-43.1-59.2-21.9-126.7-23.6-187.4-6.4-58.2 16.5-112.5 50.8-151.1 97.5-10.6 12.9-20.7 26.3-29.3 40.7-8.7 14.5-15.7 29.8-22.1 45.5-12 29-18.2 59.9-20.7 91.2-.6 7.2-.8 14.4-.9 21.6-.1 21.6 18.4 40 40 40h470c21.7 0 43.4.3 65.1 0h.9c21.1-.1 41.1-18.5 40.1-40.1-1-21.7-17.6-40-40-40H155c-21.7 0-43.4-.4-65.1 0H89l40 40c0-12.1.8-24.1 2.4-36-.5 3.5-1 7.1-1.4 10.6 3.2-23.6 9.5-46.6 18.8-68.6-1.3 3.2-2.7 6.4-4 9.6 9-21 20.5-40.8 34.5-58.9L173 660c14.2-18.3 30.6-34.7 48.9-48.9l-8.1 6.3c18.1-13.9 37.9-25.5 58.9-34.5-3.2 1.3-6.4 2.7-9.6 4 22-9.3 45-15.6 68.6-18.8-3.5.5-7.1 1-10.6 1.4 23.9-3.2 48.1-3.2 72.1 0-3.5-.5-7.1-1-10.6-1.4 23.6 3.2 46.6 9.5 68.6 18.8-3.2-1.3-6.4-2.7-9.6-4 21 9 40.8 20.5 58.9 34.5l-8.1-6.3c18.3 14.2 34.7 30.6 48.9 48.9l-6.3-8.1c13.9 18.1 25.5 37.9 34.5 58.9-1.3-3.2-2.7-6.4-4-9.6 9.3 22 15.6 45 18.8 68.6-.5-3.5-1-7.1-1.4-10.6 1.6 12 2.4 24 2.4 36 .1 20.9 18.4 41 40 40 21.4-1 39.8-17.6 39.7-40z"/>
+              <g>
+                <path d="M640.3 350H935c20.9 0 41-18.4 40-40-1-21.7-17.6-40-40-40H640.3c-20.9 0-41 18.4-40 40 1 21.7 17.6 40 40 40zM691.1 552H935c20.9 0 41-18.4 40-40-1-21.7-17.6-40-40-40H691.1c-20.9 0-41 18.4-40 40 1 21.7 17.6 40 40 40zM792.7 754H935c20.9 0 41-18.4 40-40-1-21.7-17.6-40-40-40H792.7c-20.9 0-41 18.4-40 40s17.6 40 40 40z"/>
+              </g>
+          </symbol>
+        </svg>
+          
+          <!-- home icon below-->
+          
+        <svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" >
+          <symbol id="home" viewbox="0 0 312 299">
+        <defs>
+          <style>
+            .fil0{fill:#000}
+          </style>
+        </defs>
+        <path d="M221 26v7l39 30V26zM152 1L3 118c-7 5 1 16 8 10l9-7v171c0 4 2 7 6 7h91V182h78v117h91c4 0 7-3 7-7V121l9 7c7 6 14-5 8-10L160 1c-2-1-6-1-8 0z" class="fil0"/>
+          </symbol>
+      </svg>
+          
+          <!-- projects-alt -->
+      
+      
+      <svg xmlns="http://www.w3.org/2000/svg" version="1" viewbox="0 0 100 100">
+        <symbol id="projects-alt" viewbox="0 0 100 100">
+          <path d="M27.075 36.955c-.926 0-1.68.752-1.68 1.679v3.341c0 .928.754 1.68 1.68 1.68h3.735c.166.494.365.978.602 1.443l-3.085 3.086c-.317.315-.491.738-.491 1.188 0 .447.176.869.491 1.186l2.362 2.362c.631.632 1.736.636 2.376 0l3.083-3.085c.466.236.949.436 1.443.602v3.735c0 .925.752 1.679 1.678 1.679h3.343c.926 0 1.678-.752 1.678-1.679v-3.735c.495-.166.979-.365 1.444-.602l3.084 3.085c.634.634 1.74.634 2.374 0l2.36-2.36c.317-.316.494-.738.494-1.188.002-.449-.173-.87-.49-1.188l-3.086-3.086c.236-.466.438-.949.601-1.443h3.737c.926 0 1.679-.752 1.679-1.68v-3.341c0-.927-.753-1.679-1.679-1.679h-3.736c-.164-.498-.365-.98-.602-1.45l3.084-3.087c.317-.316.494-.736.494-1.188 0-.447-.175-.869-.494-1.188l-2.361-2.363c-.635-.635-1.741-.631-2.372 0l-3.086 3.086c-.47-.236-.951-.438-1.444-.603v-3.735c0-.925-.752-1.678-1.678-1.678H39.27c-.924 0-1.676.752-1.676 1.678v3.735c-.494.164-.976.364-1.444.603l-3.084-3.088c-.638-.633-1.745-.629-2.374.002l-2.364 2.365c-.653.655-.651 1.721.001 2.373l3.085 3.087c-.235.47-.437.952-.603 1.45h-3.736v.001zm6.107-2.257l-3.467-3.466 2.164-2.164 3.463 3.467c.293.293.75.352 1.106.141.724-.425 1.491-.744 2.281-.945.403-.104.685-.467.685-.885v-4.273h3.056v4.273c0 .418.282.781.685.885.791.201 1.559.521 2.28.945.358.209.812.152 1.106-.141l3.467-3.465 2.16 2.162-3.465 3.466c-.293.295-.352.75-.14 1.108.423.715.741 1.484.948 2.282.104.404.466.687.881.687h4.275v3.057h-4.275c-.415 0-.778.284-.881.684-.206.797-.524 1.565-.948 2.282-.211.356-.153.812.14 1.106l3.465 3.464-2.16 2.163-3.467-3.469c-.295-.293-.748-.351-1.107-.139-.714.424-1.48.743-2.28.948-.401.103-.683.465-.683.882v4.275h-3.057v-4.275c0-.417-.281-.779-.683-.882-.801-.208-1.567-.524-2.28-.948-.359-.211-.814-.154-1.107.139l-3.465 3.469-2.162-2.163 3.466-3.464c.294-.295.351-.75.14-1.106-.422-.716-.74-1.485-.947-2.282-.104-.399-.467-.684-.881-.684H27.22v-3.057h4.275c.416 0 .777-.282.881-.687.207-.798.525-1.567.948-2.282.208-.358.152-.815-.142-1.108z"/>
+          <path d="M40.941 46.094c3.191 0 5.789-2.596 5.789-5.787 0-3.199-2.598-5.798-5.789-5.798s-5.788 2.599-5.788 5.798c0 3.191 2.597 5.787 5.788 5.787zm0-9.764c2.188 0 3.968 1.783 3.968 3.977 0 2.188-1.78 3.967-3.968 3.967s-3.967-1.779-3.967-3.967c.001-2.196 1.78-3.977 3.967-3.977z"/>
+          <path d="M88.239 10.85H11.76c-3.514 0-6.373 2.857-6.373 6.371v49.168c0 3.514 2.858 6.373 6.373 6.373h26.404v9.105h-4.553c-2.008 0-3.643 1.632-3.643 3.639 0 2.012 1.635 3.645 3.643 3.645H66.39c2.007 0 3.64-1.633 3.64-3.645 0-2.007-1.633-3.639-3.64-3.639h-4.554v-9.105h26.403c3.515 0 6.374-2.859 6.374-6.373V17.221c0-3.514-2.859-6.371-6.374-6.371zM11.76 12.669h76.479c2.511 0 4.554 2.042 4.554 4.552v42.793H7.209V30.207h8.611c.503 0 .911-.408.911-.91 0-.503-.408-.911-.911-.911H7.209v-3.643h8.606c.502 0 .91-.408.91-.91 0-.503-.408-.91-.91-.91H7.209V19.27c.035.006.072.01.11.01h13.958c.503 0 .911-.407.911-.908 0-.503-.408-.911-.911-.911H7.319c-.038 0-.075.006-.11.013v-.252c0-2.512 2.041-4.553 4.551-4.553zm56.449 72.836c0 1.009-.815 1.823-1.82 1.823H33.611c-1.003 0-1.82-.814-1.82-1.823 0-1.003.816-1.817 1.82-1.817h32.777c1.006 0 1.821.814 1.821 1.817zm-8.193-3.639H39.984v-9.105h20.031v9.105zm28.223-10.925H11.76c-2.51 0-4.551-2.043-4.551-4.555v-4.551h85.584v4.551c0 2.512-2.043 4.555-4.554 4.555z"/>
+          <circle cx="24.988" cy="18.371" r=".906"/>
+          <path d="M55.53 31.91c-.292.095-.528.297-.667.57-.138.274-.162.584-.066.873l.728 2.227c.192.585.854.924 1.444.732l2.507-.821c.223.305.47.593.739.86l-1.393 2.742c-.139.271-.163.584-.066.874.095.293.299.528.568.663l2.089 1.061c.548.276 1.261.043 1.539-.502l1.39-2.744c.377.06.754.088 1.131.088l.82 2.508c.153.473.592.79 1.086.79.123 0 .241-.019.356-.06l2.224-.726c.6-.196.928-.844.733-1.444l-.819-2.504c.305-.224.594-.472.859-.74l2.744 1.392c.548.276 1.26.043 1.537-.503l1.058-2.081c.14-.274.165-.585.071-.876-.096-.291-.299-.529-.571-.667l-2.744-1.392c.06-.373.089-.752.089-1.129l2.51-.822c.6-.193.927-.844.729-1.44l-.726-2.228c-.193-.584-.855-.924-1.444-.729l-2.507.819c-.227-.31-.473-.597-.741-.865l1.39-2.741c.141-.272.165-.584.07-.873-.096-.293-.298-.529-.573-.668l-2.084-1.06c-.547-.28-1.262-.042-1.538.502l-1.394 2.745c-.375-.061-.753-.088-1.129-.088l-.819-2.508c-.191-.588-.843-.931-1.443-.733l-2.226.726c-.599.197-.927.844-.731 1.445l.819 2.506c-.303.223-.591.469-.86.739l-2.744-1.392c-.545-.276-1.26-.043-1.536.502l-1.06 2.088c-.139.273-.162.584-.067.873.096.293.298.529.569.666l2.746 1.394c-.06.375-.089.754-.089 1.133l-2.508.818zm3.55-2.83l-3.088-1.566.996-1.965 3.086 1.565c.245.124.546.067.729-.14.393-.442.836-.822 1.319-1.131.234-.148.339-.438.251-.699l-.939-2.877 2.091-.686.94 2.878c.086.263.326.431.615.417.58-.036 1.16.01 1.731.135.272.061.547-.07.672-.318l1.567-3.086 1.963.996-1.564 3.088c-.126.246-.068.548.139.729.438.387.818.832 1.133 1.323.15.233.438.337.701.25l2.873-.943.685 2.097-2.873.938c-.263.086-.435.339-.417.615.035.579-.012 1.161-.137 1.731-.06.271.071.547.317.672l3.087 1.564-.994 1.963-3.089-1.562c-.245-.125-.547-.068-.729.141-.387.438-.828.818-1.316 1.131-.234.146-.336.436-.251.699l.94 2.874-2.094.683-.938-2.873c-.082-.25-.315-.42-.576-.42-.013 0-.026.002-.04.002-.579.038-1.16-.008-1.732-.134-.271-.057-.545.072-.67.32l-1.565 3.085-1.963-.996 1.567-3.088c.125-.247.066-.549-.143-.731-.439-.385-.818-.829-1.132-1.317-.148-.232-.438-.338-.7-.25l-2.872.942-.685-2.097 2.873-.939c.264-.084.435-.336.416-.615-.037-.578.01-1.164.136-1.732.057-.273-.074-.549-.32-.673z"/>
+          <path d="M65.477 35.117c.423 0 .843-.067 1.25-.2 1.021-.333 1.851-1.044 2.337-2.002.485-.959.569-2.047.235-3.069-.541-1.664-2.08-2.779-3.823-2.779-.423 0-.843.068-1.25.203-1.021.33-1.851 1.043-2.336 2.002-.486.959-.57 2.052-.235 3.072.539 1.659 2.076 2.773 3.822 2.773zm-2.506-5.297c.34-.668.919-1.168 1.633-1.399.283-.093.577-.142.871-.142 1.218 0 2.291.783 2.671 1.943.233.711.174 1.473-.165 2.143-.34.67-.919 1.166-1.631 1.4-.284.092-.578.139-.873.139-1.219 0-2.291-.779-2.669-1.936-.236-.715-.177-1.477.163-2.148z"/>
+        </symbol>
+      </svg>
+      
+          <!-- projects -->
+      
+      <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewbox="0 0 64 64">
+        <symbol id="projects" viewbox="0 0 64 64">
+          <path d="M48.29688 26.43213a19.919 19.919 0 0 0-4.72657-4.72656.9994.9994 0 0 0-1.00781-.08936l-3.25684 1.54a17.308 17.308 0 0 0-1.97461-.81885l-1.21191-3.65234A1.00017 1.00017 0 0 0 35.16992 18h-6.33984a1.00017 1.00017 0 0 0-.94922.68506l-1.22656 3.69629-1.918.79492-3.2988-1.56006a1.00236 1.00236 0 0 0-1.00488.0874 19.93654 19.93654 0 0 0-4.72754 4.72559 1.00258 1.00258 0 0 0-.08985 1.0083l1.56055 3.29932-.79492 1.918-3.69531 1.22607A1.00016 1.00016 0 0 0 12 34.83008v6.33984a1.00016 1.00016 0 0 0 .68555.94922l3.69531 1.22607.79492 1.918-1.56055 3.29929a1.0017 1.0017 0 0 0 .08789 1.00537 19.919 19.919 0 0 0 4.72657 4.72656.99845.99845 0 0 0 1.02343.08155l2.99024-1.48-.88672-1.792-2.44434 1.2095a17.92825 17.92825 0 0 1-3.43457-3.4336l1.4961-3.16211a1.00146 1.00146 0 0 0 .01953-.81054l-1.13965-2.75a.99941.99941 0 0 0-.60937-.56641L14 40.44824v-4.89648l3.44434-1.14258a.99941.99941 0 0 0 .60937-.56641l1.13965-2.75a1.00146 1.00146 0 0 0-.01953-.81054l-1.49512-3.16016a17.91935 17.91935 0 0 1 3.44141-3.44385l3.16211 1.49561a.99785.99785 0 0 0 .81054.02l2.75-1.14014a1.0011 1.0011 0 0 0 .56641-.60889L29.55176 20h4.89648l1.14258 3.44482a1.00224 1.00224 0 0 0 .65039.63965 15.27023 15.27023 0 0 1 2.58106 1.06983.99871.99871 0 0 0 .8955.01953l3.16016-1.49463a17.91984 17.91984 0 0 1 3.44434 3.44092l-1.4961 3.16211a.99929.99929 0 0 0 .02051.895 15.33517 15.33517 0 0 1 1.06934 2.581.99981.99981 0 0 0 .63964.65088L50 35.55176v4.89648l-3.44434 1.14258a.99981.99981 0 0 0-.63964.65088 15.33517 15.33517 0 0 1-1.06934 2.581.99929.99929 0 0 0-.02051.895l1.49512 3.16016a17.92831 17.92831 0 0 1-3.43164 3.43652L40.44336 51.104l-.88672 1.792 2.99024 1.48a.99906.99906 0 0 0 1.0205-.07959 19.93654 19.93654 0 0 0 4.72754-4.72559 1.00258 1.00258 0 0 0 .08985-1.0083l-1.54-3.25635a17.34327 17.34327 0 0 0 .81836-1.97558l3.65136-1.21143A1.00016 1.00016 0 0 0 52 41.16992v-6.33984a1.00016 1.00016 0 0 0-.68555-.94922l-3.65136-1.21143a17.30641 17.30641 0 0 0-.81836-1.97558l1.54-3.25635a1.0017 1.0017 0 0 0-.08785-1.00537z"/>
+          <path d="M27 58v3a.99974.99974 0 0 0 1 1h8a.99974.99974 0 0 0 1-1v-3a.99974.99974 0 0 0 1-1v-1.49561a17.53938 17.53938 0 0 1 3.65918-10.39257A11.87984 11.87984 0 0 0 44 38a12.00121 12.00121 0 1 0-21.43848 7.40234A17.09114 17.09114 0 0 1 26 55.97314V57a.99974.99974 0 0 0 1 1zm8 2h-6v-2h6zM24.13379 44.165a9.95653 9.95653 0 0 1-2.00977-7.7627 10.07291 10.07291 0 0 1 8.72071-8.33789 9.99655 9.99655 0 0 1 9.207 15.8584A19.51751 19.51751 0 0 0 36 55.50439V56h-3v-8.10107a5 5 0 1 0-2 0V56h-3v-.02686A19.102 19.102 0 0 0 24.13379 44.165zM32 46a3 3 0 1 1 3-3 3.00328 3.00328 0 0 1-3 3zM24 5.05176v4.89648A3.05538 3.05538 0 0 0 27.05176 13h2.41308l1.70316 2.55469a.99995.99995 0 0 0 1.66406 0L34.53516 13h2.41308A3.05538 3.05538 0 0 0 40 9.94824V5.05176A3.05538 3.05538 0 0 0 36.94824 2h-9.89648A3.05538 3.05538 0 0 0 24 5.05176zm2 0A1.05277 1.05277 0 0 1 27.05176 4h9.89648A1.05277 1.05277 0 0 1 38 5.05176v4.89648A1.05277 1.05277 0 0 1 36.94824 11H34a1.00028 1.00028 0 0 0-.832.44531L32 13.19727l-1.168-1.752A1.00028 1.00028 0 0 0 30 11h-2.94824A1.05277 1.05277 0 0 1 26 9.94824zM53 2a9 9 0 1 0 9 9 9.01016 9.01016 0 0 0-9-9zm0 16a7 7 0 1 1 7-7 7.00818 7.00818 0 0 1-7 7zM11 20a9 9 0 1 0-9-9 9.01016 9.01016 0 0 0 9 9zm0-16a7 7 0 1 1-7 7 7.00818 7.00818 0 0 1 7-7z"/>
+          <path d="M53 10a1 1 0 0 1 0-2h2V6h-2a3 3 0 0 0 0 6 1 1 0 0 1 0 2h-2v2h2a3 3 0 0 0 0-6zM28 6h4v2h-4zM34 6h2v2h-2zM7 11h2v3H7zM10 9h2v5h-2zM13 7h2v7h-2zM58 21h2v2h-2zM58 25h2v2h-2zM58 29h2v2h-2zM58 33h2v2h-2zM58 37h2v2h-2zM54 37h2v2h-2zM4 21h2v2H4zM4 25h2v2H4zM4 29h2v2H4zM4 33h2v2H4zM4 37h2v2H4zM8 37h2v2H8zM4 56h2v2H4zM4 60h2v2H4zM6 58h2v2H6zM2 58h2v2H2zM58 56h2v2h-2zM58 60h2v2h-2zM60 58h2v2h-2zM56 58h2v2h-2zM31 42h2v2h-2z"/>
+        </symbol>
+      </svg>
+      
+      <!-- connect-icon -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 32 32">
+        <symbol id="connect" viewbox="0 0 32 32">
+          <ellipse cx="5.676" cy="3.341" rx="3.286" ry="3.341"/>
+          <path d="M5.676 7.51C2.541 7.51 0 10.093 0 13.28h11.352c0-3.187-2.542-5.77-5.676-5.77z"/>
+          <ellipse cx="26.324" cy="22.061" rx="3.286" ry="3.341"/>
+          <path d="M26.324 26.23c-3.135 0-5.676 2.583-5.676 5.77H32c0-3.187-2.541-5.77-5.676-5.77zM5.16 15.738v7.293h15.428v-2H7.16v-5.293z"/>
+        </symbol>
+      </svg>
+      
+      <!-- tech-bulb -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 48 48">
+        <symbol id="tech-bulb" viewbox="0 0 48 48">
+          <path d="M40 16c0-8.8-7.2-16-16-16S8 7.2 8 16c0 5.8 3.7 10.1 5.3 11.7 2.4 2.4 3.4 4.1 3.7 6.3h-1v2h1v2h-1v2h1v2c0 .5.2 1 .6 1.4.4.4.9.6 1.4.6h1v2c0 .5.2 1 .6 1.4.4.4.9.6 1.4.6h4c.5 0 1-.2 1.4-.6s.6-.9.6-1.4v-2h1c.5 0 1-.2 1.4-.6s.6-.9.6-1.4v-2h1v-2h-1v-2h1v-2h-1c.2-2.2 1.2-3.8 3.7-6.3C36.3 26.1 40 21.8 40 16zM26 46h-4v-2h4v2zm3-12h-4v-7.6l3.4-3.4H30v-2h-2.4L25 23.6v-2.2l4.4-4.4H32v-2h-3.4L25 18.6v-2.2l5-5V9h-2v1.6l-3 3V8h-2v6.6l-3-3V10h-2v2.4l5 5v2.2L20.4 17H17v2h2.6l3.4 3.4v8.2l-2-2V26h-2v3.4l4 4v.6h-2v2h8v2h-8v2h8v2H19v-7c0-3.3-1.1-5.5-4.3-8.7C13.3 24.9 10 21 10 16c0-7.7 6.3-14 14-14s14 6.3 14 14c0 5-3.3 8.9-4.7 10.3-2.8 2.8-4 5-4.3 7.7zM23 4h2v2h-2V4zm9 17h2v2h-2v-2zm-19-4h2v2h-2v-2zm23-2v2h-2v-2h2zM28 5h2v2h-2V5zM18 6h2v2h-2V6zm3 18h-2v-2h2v2z"/>
+        </symbol>
+      </svg>
+    </div>
+    <!--Wrapper Ends-->
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
